@@ -1,0 +1,22 @@
+.login{
+    position: relative;
+}
+.menu-cap2{
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    width: 150px;
+    padding: 5px 10px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 50%);
+}
+.login:hover .menu-cap2{
+    display:block;
+}
+.menu-cap2 li{
+    width: 100% !important;
+    border: 1px solid #fff;
+}
+
+.menu-cap2 li:hover{
+    border: 1px solid #ccc;
+}
